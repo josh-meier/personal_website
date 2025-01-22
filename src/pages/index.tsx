@@ -25,7 +25,7 @@ export default function Home(){
             <strong className="font-normal"> I'm currently looking for full-time developer roles starting in Summer 2025</strong>!
           </p>
 
-          <button className="btn btn-md bg-green-200 my-4 container">Click to view my resume!</button>
+          <Link href={"/Joshua_Meier_Resume_2024.pdf"}  target='_blank' className="btn btn-md bg-green-200 my-4 container">Click to view my resume!</Link>
 
 
           <div className="collapse collapse-arrow bg-base-200">
