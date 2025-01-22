@@ -44,7 +44,7 @@ const Navbar = () => {
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link href="/experience" className="text-black  dark:text-white block hover:bg-gray-200 rounded-lg p-2">Experience</Link>
                 <Link href="/projects" className="text-black  dark:text-white block hover:bg-gray-200 rounded-lg p-2">Projects</Link>
-                <Link href="/contact" className="text-black   dark:text-white hover:bg-gray-200 rounded-lg p-2">Contact</Link>
+                <Link href="/contact" className="text-black   dark:text-white block hover:bg-gray-200 rounded-lg p-2">Contact</Link>
               </div>
             </div>
           )}
