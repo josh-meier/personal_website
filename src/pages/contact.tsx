@@ -15,7 +15,7 @@ const Navbar2 = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link href="/" className="text-black  hover:bg-gray-200 rounded-lg p-2 text-xl">Home</Link>  
+                <Link href="/personal_website" className="text-black  hover:bg-gray-200 rounded-lg p-2 text-xl">Home</Link>  
               </div>
             </div>
             <div className="hidden md:block">
