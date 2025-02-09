@@ -23,7 +23,7 @@ export default function Projects(){
          stuff down 3 flights of stairs. 
       </p>
 
-      <Image className="h-auto w-11/12" width={3000} height={1000} src="/figma_prototype_1.png" alt="Screenshot of figma design displaying a search functionality for your dorm, then
+      <Image unoptimized className="h-auto w-11/12" width={3000} height={1000} src="/figma_prototype_1.png" alt="Screenshot of figma design displaying a search functionality for your dorm, then
        a dashboard with machines and the time left until they are free, and a popup for when you are confirming your use of a machine">
           </Image>
       <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">
