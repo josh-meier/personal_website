@@ -45,7 +45,7 @@ export default function Home(){
           </div>
         </div>
         <div className="px-2 pt-4 md:pt-18 ">
-          <Image className="h-auto w-11/12" width={1000} height={1000} src="/headshot.jpg" alt="Headshot of Josh Meier standing in front of Stonehenge">
+          <Image src={"headshot.jpg"} className="h-auto w-11/12" width={1000} height={1000}  alt="Headshot of Josh Meier standing in front of Stonehenge">
           </Image>
         </div>
         

@@ -64,11 +64,11 @@ export default function Projects(){
         <div className='pt-48 px-12'>
           
           <div className='flex flex-row'>  
-            <Image src={"/req1.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling through the list of washers and dryers to see 
+            <Image src={"req1.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling through the list of washers and dryers to see 
             what is available and what is being used.'></Image>
-            <Image src={"/req2.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling down to go the maintenance request form which 
+            <Image src={"req2.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling down to go the maintenance request form which 
             has all of the washers and dryers with checkboxes next to them, a textbox to describe the issue, and a submit button.'></Image>
-            <Image src={"/req3.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then hitting a gray star next to the dorm name
+            <Image src={"req3.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then hitting a gray star next to the dorm name
             so that the star becomes yellow and indicates that that dorm is where the user lives.'></Image>
           </div>
 
