@@ -56,21 +56,6 @@ export default function Projects(){
             III: After selecting your dorm for the first time, to indicate your dorm preference, there is a star next to the dorm 
             name which you can click to indicate that you live there and would like it to show up automatically upon opening the website.
           </p>
-          
-          
-          
-        </div>
-        
-        <div className='pt-48 px-12'>
-          
-          <div className='flex flex-row'>  
-            <Image src={"req1.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling through the list of washers and dryers to see 
-            what is available and what is being used.'></Image>
-            <Image src={"req2.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling down to go the maintenance request form which 
-            has all of the washers and dryers with checkboxes next to them, a textbox to describe the issue, and a submit button.'></Image>
-            <Image src={"req3.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then hitting a gray star next to the dorm name
-            so that the star becomes yellow and indicates that that dorm is where the user lives.'></Image>
-          </div>
 
           <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">
             <b>What has been our user research process?</b>
@@ -90,6 +75,71 @@ export default function Projects(){
               </li>
             </ol>   
           </p>
+
+          <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">
+            <b>What was our UX Evaluation like?</b>
+            <ol  style={{ listStyleType: "disc" }}>
+              <li>
+                Tasks: Finding an open machine in your dorm, Seeing that a machine is broken/reporting it for maintenance, Selecting a default/favorite dorm
+              </li>
+              <li>
+                Process: We used various think aloud interviews and focus groups where we had users complete our tasks while telling us their feedback and thinking along the way
+              </li>
+              <li>
+                Results (Qualitative): Finding open machines was intuitive and simple ("I like that its really simple and clean"), users wished there was a floor plan layout instead of a list ("Because the name is laundromap, I thought I would see the location of each laundry machine and dryer"),
+                reporting broken machines was easy ("I liked that I was able to describe the issue and report multiple machines at once"), selecting a default dorm was unclear what it did ("It would have been nice if there were some instructions")
+              </li>
+              <li>
+                Results (Quantitative): Task 1: 15 seconds and no errors, Task 2: 43 seconds and 1 error, Task 3: 9 seconds and no errors
+              </li>
+              <li>
+                Improvements: I took the feedback and implemented a floor layout option for the user to view instead of the list. I also implemented a popup to let the user know what the default star does when you click it.
+              </li>
+              <li>
+                Future Steps: In the future I want to make the app look a bit more appealing, allow the user to input whether they are okay with others moving their clothes or not, and enable the user to set a timer for when their load will be finished.
+              </li>
+            </ol>   
+          </p>
+          
+          
+          
+        </div>
+        
+        <div className='pt-16 px-12'>
+          
+          <div className='flex flex-col'>  
+          <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">Low Fidelity Prototype (no interactions): </p>
+
+              <Image className="h-auto w-11/12" width={3000} height={1000} src="figma1.jpg" alt="Screenshot of figma design displaying a search functionality for your dorm, then
+          a dashboard with machines and the time left until they are free, and a popup for when you are confirming your use of a machine">
+              </Image>
+
+          <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">Mid Fidelity Requirement 1: </p>
+
+            <Image src={"req1.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling through the list of washers and dryers to see 
+            what is available and what is being used.'></Image>
+                      <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">Mid Fidelity Requirement 2: </p>
+
+            <Image src={"req2.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then scrolling down to go the maintenance request form which 
+            has all of the washers and dryers with checkboxes next to them, a textbox to describe the issue, and a submit button.'></Image>
+                      <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">Mid Fidelity Requirement 3: </p>
+
+            <Image src={"req3.gif"} width={260} height={400} alt='Gif of user selecting their dorm, then hitting a gray star next to the dorm name
+            so that the star becomes yellow and indicates that that dorm is where the user lives.'></Image>
+                     
+                      <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">High Fidelity Home Page: </p>
+
+<Image src={"listlayout.gif"} width={260} height={400} alt='Gif of user selecting their dorm and seeing what machines are available.'></Image>
+<p className="py-4 text-1xl text-gray-500 dark:text-gray-400">High Fidelity default dorm improvement: </p>
+
+<Image src={"newdefault.gif"} width={260} height={400} alt='Gif of user selecting their default dorm by clicking a star and a popup shows up saying that that dorm will no be automatically selected.'></Image>
+<p className="py-4 text-1xl text-gray-500 dark:text-gray-400">High Fidelity laundry room floor layout improvement: </p>
+
+<Image src={"floorlayout.gif"} width={260} height={400} alt='Gif of user scrolling through a top down floor layout of the machines in a laundry room.'></Image>
+
+          </div>
+
+          
         </div>
         
       </div>
