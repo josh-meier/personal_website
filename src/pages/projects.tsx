@@ -10,9 +10,7 @@ export default function Projects(){
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Navbar />
 
-      <div className="p-4 mb-4 text-sm text-gray-800 rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-gray-300" role="alert">
-        <span className="font-medium">Beware!</span> This website is currently still under construction.
-      </div>
+     
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div>
           <h1 className="text-4xl font-semibold dark:text-white pt-16">
@@ -24,10 +22,7 @@ export default function Projects(){
             check their local laundry room's machine availability to avoid that annoying realization that there isn't even a machine open after you just carried all your
             stuff down 3 flights of stairs. 
           </p>
-          <div>
-           <Link href={"https://www.figma.com/proto/X0XeeeSdStnqMSLS9tKsQT/Untitled?node-id=72-159&t=9wDIgmlTtU7w4WNY-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=72%3A159"}
-            target='_blank' className="btn btn-md bg-slate-300 my-4 container">View the prototype (in figma)</Link>
-          </div>
+          
 
           {/* <Image className="h-auto w-11/12" width={3000} height={1000} src="/figma1.jpg" alt="Screenshot of figma design displaying a search functionality for your dorm, then
           a dashboard with machines and the time left until they are free, and a popup for when you are confirming your use of a machine">
@@ -76,6 +71,11 @@ export default function Projects(){
             </ol>   
           </p>
 
+          <div>
+           <Link href={"https://www.figma.com/proto/X0XeeeSdStnqMSLS9tKsQT/Untitled?node-id=72-159&t=9wDIgmlTtU7w4WNY-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=72%3A159"}
+            target='_blank' className="btn btn-md bg-slate-300 my-4 container">View the mid fidelity prototype (in figma)</Link>
+          </div>
+
           <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">
             <b>What was our UX Evaluation like?</b>
             <ol  style={{ listStyleType: "disc" }}>
@@ -96,18 +96,33 @@ export default function Projects(){
                 Improvements: I took the feedback and implemented a floor layout option for the user to view instead of the list. I also implemented a popup to let the user know what the default star does when you click it.
               </li>
               <li>
-                Future Steps: In the future I want to make the app look a bit more appealing, allow the user to input whether they are okay with others moving their clothes or not, and enable the user to set a timer for when their load will be finished.
+                Future Steps: In the future I want to make the app look a bit more appealing as its currently pretty bland. I also want to allow the user to input whether they are okay with others moving their clothes or not
+                which is something that came up a lot in our original round of interviews. I also want to enable the user to be able to set timers for when their laundry will be done as a way to help them not forget to set their own timers
+                which we heard that some people struggle with from our original interviews.
               </li>
             </ol>   
           </p>
+
+
+          <div>
+           <Link href={"https://www.figma.com/proto/X0XeeeSdStnqMSLS9tKsQT/Untitled?node-id=157-1369&p=f&t=hb8AYPeiTSMQkDfQ-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=157%3A1370"}
+            target='_blank' className="btn btn-md bg-slate-300 my-4 container">View the high fidelity prototype (in figma)</Link>
+          </div>
           
           
           
         </div>
         
         <div className='pt-16 px-12'>
+
+       
           
           <div className='flex flex-col'>  
+          <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">Affinity Diagram: </p>
+
+          <Image className="h-auto w-11/12" width={3000} height={1000} src="affinityfeatures.png" alt="Screenshot of affinity diagram where we grouped together feedback from users during our interviews and focus groups ">
+          </Image>
+
           <p className="py-4 text-1xl text-gray-500 dark:text-gray-400">Low Fidelity Prototype (no interactions): </p>
 
               <Image className="h-auto w-11/12" width={3000} height={1000} src="figma1.jpg" alt="Screenshot of figma design displaying a search functionality for your dorm, then
