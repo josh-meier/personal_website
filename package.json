@@ -11,6 +11,7 @@
   "dependencies": {
     "canvas-confetti": "^1.9.3",
     "clsx": "^2.1.1",
+    "eslint-plugin-react-hooks": "^6.1.0-canary-d92056ef-20250627",
     "gsap": "^3.13.0",
     "next": "15.1.4",
     "react": "^19.0.0",
