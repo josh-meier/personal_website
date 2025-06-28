@@ -5,7 +5,7 @@ import Image from "next/image"
 
 interface AnimatedImageProps {
   src: string
-  containerRef: RefObject<HTMLDivElement>
+  containerRef: RefObject<HTMLDivElement | null> 
 }
 
 export function AnimatedImage({ src, containerRef }: AnimatedImageProps) {
