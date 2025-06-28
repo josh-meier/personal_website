@@ -139,7 +139,7 @@ const AnimatedImage = dynamic(
   },
 )
 
-export default function Home() {
+export default function Bday() {
   const backgroundUrl = "bdaybackground.jpg"
   const [images, setImages] = useState<string[]>([])
   const containerRef = useRef<HTMLDivElement>(null)
